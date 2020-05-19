@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+
+    <TextView
+        android:id="@+id/tvAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="50sp"/>
+
+
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="30sp" android:text="@string/provider_gps" android:id="@+id/tvTitleGPS"> </TextView>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="24sp" android:id="@+id/tvEnabledGPS"> </TextView>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="24sp" android:id="@+id/tvStatusGPS"> </TextView>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="24sp" android:id="@+id/tvLocationGPS"> </TextView>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="30sp" android:text="@string/provider_network" android:id="@+id/tvTitleNet" android:layout_marginTop="10dp"> </TextView>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="24sp" android:id="@+id/tvEnabledNet"> </TextView>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="24sp" android:id="@+id/tvStatusNet"> </TextView>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="24sp" android:id="@+id/tvLocationNet"> </TextView>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/location_settings" android:id="@+id/btnLocationSettings" android:layout_marginTop="10dp" android:onClick="onClickLocationSettings"> </Button>
+
+    <Button
+        android:id="@+id/btn_location"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Get location"
+        android:textColor="#ffffff"
+        app:backgroundTint="@color/colorPrimary"
+        android:layout_marginTop="10dp" >
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:textSize="13pt"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary" />
+
+</LinearLayout>

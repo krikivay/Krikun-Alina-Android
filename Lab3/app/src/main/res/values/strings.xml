@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="intro_name">имя</string>
+    <string name="insert_name">name</string>
+    <string name="ins_name">first name</string>
+    <string name="location_settings">Location settings</string>
+    <string name="provider_network">Network</string>
+    <string name="provider_gps">GPS</string>
+    <string name="title_location_permission" />
+    <string name="text_location_permission" />
+    <string name="ok" />
+</resources>
